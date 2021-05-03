@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="410b1142-e79e-4e28-9038-a9c4c21da3e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0x02-python-import_modules/0-add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02-python-import_modules/1-calculation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02-python-import_modules/2-args.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02-python-import_modules/3-infinite_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02-python-import_modules/4-hidden_discovery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02-python-import_modules/5-variable_load.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01-python-if_else_loops_functions/100-print_tebahpla.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x01-python-if_else_loops_functions/100-print_tebahpla.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01-python-if_else_loops_functions/101-remove_char_at.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x01-python-if_else_loops_functions/101-remove_char_at.py" afterDir="false" />
-    </list>
+    <list default="true" id="410b1142-e79e-4e28-9038-a9c4c21da3e6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +252,7 @@
       <workItem from="1619842482502" duration="462000" />
       <workItem from="1619843117677" duration="1040000" />
       <workItem from="1619885950683" duration="16172000" />
-      <workItem from="1620003382252" duration="14406000" />
+      <workItem from="1620003382252" duration="14907000" />
     </task>
     <task id="LOCAL-00001" summary="commit with pycharm">
       <created>1619749190915</created>
