@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="410b1142-e79e-4e28-9038-a9c4c21da3e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0x02-python-import_modules/100-my_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-python-hello_world/5-print_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-python-hello_world/5-print_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-python-hello_world/8-concat_edges.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-python-hello_world/8-concat_edges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-python-hello_world/9-easter_egg.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-python-hello_world/9-easter_egg.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +257,7 @@
       <workItem from="1619842482502" duration="462000" />
       <workItem from="1619843117677" duration="1040000" />
       <workItem from="1619885950683" duration="16172000" />
-      <workItem from="1620003382252" duration="15562000" />
+      <workItem from="1620003382252" duration="17085000" />
     </task>
     <task id="LOCAL-00001" summary="commit with pycharm">
       <created>1619749190915</created>
