@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    if my_string is None:
-        return
-    new_string = ""
-    length = len(new_string)
-    for elm in range(length):
-        if my_string[elm] != 'c' and my_string[elm] != 'C':
-            new_string += my_string[elm]
-    return new_string
+    for i in range(len(my_string) - 2):
+        if my_string[i] == 'c' or my_string[i] == 'C':
+            my_string = my_string[:i] + "" + my_string[i+1:]
+    return my_string
