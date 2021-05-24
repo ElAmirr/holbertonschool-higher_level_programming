@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    if my_string is None:
         return
     for i in range(len(my_string) - 2):
         if my_string[0] == 'c' or my_string[i] == 'C':
