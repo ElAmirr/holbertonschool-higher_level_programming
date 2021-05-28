@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+def list_division(my_list_1, my_list_2, list_length):
+    new_tab = []
+    for i, j in zip(my_list_1, my_list_2):
+        try:
+            result = i / j
+        except ZeroDivisionError:
+            print("division by 0")
+            result = 0
+        except TypeError:
+            print("wrong type")
+            result = 0
+        except IndexError:
+            print("out of range")
+            result = 0
+        finally:
+            new_tab.append(result)
+    return new_tab
