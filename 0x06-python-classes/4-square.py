@@ -7,7 +7,7 @@ Square Class: defines a square by : (based on 2-square.py)
 class Square:
     """ class Square that defines a square """
 
-    def __init__(self, size=0):
+    def __init__(self1, size=0):
         """Initialize attributes"""
         self.size = size
 
@@ -23,7 +23,7 @@ class Square:
             raise TypeError("size must be an integer")
         if(size < 0):
             raise ValueError("size must be >= 0")
-        self.__size = size
+        self.__size = value
 
     def area(self):
         """ Return the area of the square"""
