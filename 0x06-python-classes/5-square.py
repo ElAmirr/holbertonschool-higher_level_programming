@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-from typing import Sized
-
-
 class Square:
     def __init__(self, size=0):
         self.size = size
@@ -23,8 +20,9 @@ class Square:
 
     def my_print(self):
         if (self.size != 0):
-            for(i in range(self.size)):
-                for(j in range(self.size)):
-                    print("#")
+            for i in range(self.__size):
+                for j in range(self.__size):
+                    print("#", end='')
+                print("")
         else:
             print("")
