@@ -1,9 +1,9 @@
-#!/use/bin/python3
+#!/usr/bin/python3
 """
-Class Rectangle: FDefines a rectangle
+Class Rectangle: Defines a Rectangle
 """
 
 
 class Rectangle:
-    """ Empty cClass of Rectangle """
+    """ Empty class of Rectangle """
     pass
