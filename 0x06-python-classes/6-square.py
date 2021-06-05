@@ -44,7 +44,7 @@ class Square:
                 if (t < 0):
                     raise TypeError(s)
                 elif (type(t) is not int):
-                    raise TypeError(s)
+                    raise TypeError(S)
         self.__position = value
 
     def area(self):
@@ -59,7 +59,7 @@ class Square:
             for x in range(self.__size):
                 for y in range(self.__size + self.__position[0]):
                     if (y < self.__position[0]):
-                        print("_", end="")
+                        print(" ", end="")
                     else:
                         print("#", end='')
                 print('')
