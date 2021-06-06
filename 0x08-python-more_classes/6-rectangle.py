@@ -75,3 +75,4 @@ class Rectangle:
         """ (destruct) Detect when an instance of Rectangle is deleted
         and print a message """
         print("Bye rectangle...")
+        type(self).number_of_instances -= 1
