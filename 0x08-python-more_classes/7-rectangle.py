@@ -8,7 +8,7 @@ class Rectangle:
     """ class that defines a Rectangle with attributes and public methods"""
 
     number_of_instances = 0
-    print_symbol: '#'
+    print_symbol = '#'
 
     def __init__(self, width=0, height=0):
         self.__width = width
