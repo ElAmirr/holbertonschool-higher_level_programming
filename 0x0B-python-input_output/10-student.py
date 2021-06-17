@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Program that define a Student """
+""" Program that define a Student with filter """
 
 
 class Student:
@@ -14,10 +14,10 @@ class Student:
     def to_json(self, attrs=None):
         """ retrieves a dictionary representation of a Student instance """
         dic = {}
-        if (not(isinstance(attrs, list))):
+        if (type(attrs) is not list):
             return (self.__dict__)
-            else:
-                for i in attrs:
-                    if(i in sel.attrs):
-                        dic[i] = self.__dict__[i]
-                return (dic)
+        else:
+            for i in attrs:
+                if (i in self.__dict__):
+                    dic[i] = self.__dict__[i]
+            return (dic)
