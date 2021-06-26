@@ -10,6 +10,7 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
+        super().__init__(id)
 
     @property
     def width(self):
@@ -17,9 +18,8 @@ class Rectangle(Base):
         return(self.__width)
 
     @width.setter
-    """ set passet private attribute of width """
-
     def width(self, value):
+        """ set passet private attribute of width """
         self.__width = value
 
     @property
@@ -28,9 +28,8 @@ class Rectangle(Base):
         return(self.__height)
 
     @height.setter
-    """ set passet private attribute of height """
-
     def height(self, value):
+        """ set passet private attribute of height """
         self.__height = value
 
     @property
@@ -51,4 +50,4 @@ class Rectangle(Base):
     @y.setter
     def y(self, value):
         """ set passet private instance attribute y"""
-        self.__y = Value
+        self.__y = value
