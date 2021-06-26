@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+""" Base class of all other classes in this project"""
+
+
 class Base:
     """ first class Base """
     __nb_objects = 0
