@@ -1,0 +1,32 @@
+Help on class Square in module 6-square:
+
+class SSqquuaarree(builtins.object)
+ |  Square(size=0, position=(0, 0))
+ |  
+ |  class Square that defines a square
+ |  
+ |  Methods defined here:
+ |  
+ |  ____iinniitt____(self, size=0, position=(0, 0))
+ |      Initialize attributes
+ |  
+ |  aarreeaa(self)
+ |      Return the area of the square
+ |  
+ |  mmyy__pprriinntt(self)
+ |      prints in stdout the square with the character #
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  ____ddiicctt____
+ |      dictionary for instance variables (if defined)
+ |  
+ |  ____wweeaakkrreeff____
+ |      list of weak references to the object (if defined)
+ |  
+ |  ppoossiittiioonn
+ |      retrieve the initial potition
+ |  
+ |  ssiizzee
+ |      gets the size

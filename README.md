@@ -1,2 +1,3 @@
 # holbertonschool-higher_level_programming
-Foundations - Higher-level programming ― Python 
+
+Foundations - Higher-level programming ― Python
