@@ -5,3 +5,4 @@ exports.nbOccurences = function (list, searchElement) {
       (item === searchElement ? count + 1 : count), 0
     );
   };
+  
